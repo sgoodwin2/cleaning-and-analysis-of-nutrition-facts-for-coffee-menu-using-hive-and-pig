@@ -1,0 +1,241 @@
+Brewed Coffee,3,0.1,5.0,0.0,0.3,0.0
+Brewed Coffee,4,0.1,10.0,0.0,0.5,0.0
+Brewed Coffee,5,0.1,10.0,0.0,1.0,0.0
+Brewed Coffee,5,0.1,10.0,0.0,1.0,0.0
+Caffè Latte,70,0.1,75.0,0.0,6.0,5.0
+Caffè Latte,100,3.5,85.0,0.0,6.0,15.0
+Caffè Latte,70,2.5,65.0,1.0,5.0,0.0
+Caffè Latte,100,0.2,120.0,0.0,10.0,5.0
+Caffè Latte,150,6.0,135.0,0.0,10.0,25.0
+Caffè Latte,110,4.5,105.0,1.0,8.0,0.0
+Caffè Latte,130,0.3,150.0,0.0,13.0,5.0
+Caffè Latte,190,7.0,170.0,0.0,12.0,30.0
+Caffè Latte,150,5.0,130.0,1.0,10.0,0.0
+Caffè Latte,170,0.4,190.0,0.0,16.0,10.0
+Caffè Latte,240,9.0,220.0,0.0,16.0,35.0
+Caffè Latte,190,7.0,170.0,2.0,13.0,0.0
+Caffè Mocha (Without Whipped Cream),110,1.5,60.0,1.0,7.0,5.0
+Caffè Mocha (Without Whipped Cream),130,4.0,70.0,1.0,6.0,10.0
+Caffè Mocha (Without Whipped Cream),110,3.5,55.0,2.0,6.0,0.0
+Caffè Mocha (Without Whipped Cream),170,2.0,100.0,1.0,10.0,5.0
+Caffè Mocha (Without Whipped Cream),200,6.0,115.0,1.0,10.0,20.0
+Caffè Mocha (Without Whipped Cream),180,5.0,85.0,2.0,9.0,0.0
+Caffè Mocha (Without Whipped Cream),220,2.5,125.0,2.0,13.0,5.0
+Caffè Mocha (Without Whipped Cream),260,8.0,140.0,2.0,13.0,25.0
+Caffè Mocha (Without Whipped Cream),230,7.0,105.0,3.0,11.0,0.0
+Caffè Mocha (Without Whipped Cream),280,3.0,160.0,2.0,17.0,10.0
+Caffè Mocha (Without Whipped Cream),340,11.0,180.0,2.0,17.0,30.0
+Caffè Mocha (Without Whipped Cream),290,9.0,140.0,4.0,14.0,0.0
+Vanilla Latte (Or Other Flavoured Latte),100,0.1,70.0,0.0,6.0,5.0
+Vanilla Latte (Or Other Flavoured Latte),130,3.5,80.0,0.0,6.0,15.0
+Vanilla Latte (Or Other Flavoured Latte),110,2.5,60.0,1.0,5.0,0.0
+Vanilla Latte (Or Other Flavoured Latte),150,0.2,110.0,0.0,9.0,5.0
+Vanilla Latte (Or Other Flavoured Latte),200,5.0,125.0,0.0,9.0,20.0
+Vanilla Latte (Or Other Flavoured Latte),160,4.0,95.0,1.0,7.0,0.0
+Vanilla Latte (Or Other Flavoured Latte),200,0.3,140.0,0.0,12.0,5.0
+Vanilla Latte (Or Other Flavoured Latte),250,6.0,150.0,0.0,12.0,25.0
+Vanilla Latte (Or Other Flavoured Latte),210,5.0,120.0,1.0,9.0,0.0
+Vanilla Latte (Or Other Flavoured Latte),250,0.3,180.0,0.0,15.0,10.0
+Vanilla Latte (Or Other Flavoured Latte),320,9.0,200.0,0.0,15.0,35.0
+Vanilla Latte (Or Other Flavoured Latte),270,7.0,160.0,2.0,12.0,0.0
+Caffè Americano,5,0.0,5.0,0.0,0.4,0.0
+Caffè Americano,10,0.0,10.0,0.0,1.0,0.0
+Caffè Americano,15,0.0,15.0,0.0,1.0,0.0
+Caffè Americano,25,0.0,15.0,0.0,1.0,0.0
+Cappuccino,50,0.1,60.0,0.0,5.0,5.0
+Cappuccino,80,3.0,70.0,0.0,5.0,10.0
+Cappuccino,50,1.5,40.0,0.0,3.0,0.0
+Cappuccino,60,0.1,70.0,0.0,6.0,5.0
+Cappuccino,90,3.5,80.0,0.0,6.0,15.0
+Cappuccino,70,3.0,65.0,1.0,5.0,0.0
+Cappuccino,80,0.2,90.0,0.0,8.0,5.0
+Cappuccino,120,4.0,100.0,0.0,8.0,15.0
+Cappuccino,100,3.5,80.0,1.0,7.0,0.0
+Cappuccino,110,0.2,120.0,0.0,10.0,5.0
+Cappuccino,150,6.0,135.0,0.0,10.0,25.0
+Cappuccino,120,4.5,110.0,1.0,9.0,0.0
+Espresso,5,0.0,0.0,0.0,0.4,0.0
+Espresso,10,0.0,1.0,0.0,1.0,0.0
+Skinny Latte (Any Flavour),60,0.1,80.0,0.0,6.0,5.0
+Skinny Latte (Any Flavour),100,0.2,125.0,0.0,9.0,5.0
+Skinny Latte (Any Flavour),120,0.3,160.0,0.0,12.0,5.0
+Skinny Latte (Any Flavour),160,0.3,200.0,0.0,15.0,10.0
+Caramel Macchiato,100,1.0,70.0,0.0,6.0,5.0
+Caramel Macchiato,120,4.0,80.0,0.0,5.0,15.0
+Caramel Macchiato,100,3.0,60.0,1.0,4.0,0.0
+Caramel Macchiato,140,1.0,105.0,0.0,8.0,5.0
+Caramel Macchiato,180,5.0,115.0,0.0,8.0,20.0
+Caramel Macchiato,150,4.5,90.0,1.0,7.0,0.0
+Caramel Macchiato,190,1.0,130.0,0.0,11.0,10.0
+Caramel Macchiato,240,7.0,150.0,0.0,10.0,25.0
+Caramel Macchiato,200,5.0,115.0,1.0,9.0,5.0
+Caramel Macchiato,240,1.0,170.0,0.0,13.0,10.0
+Caramel Macchiato,300,8.0,180.0,0.0,13.0,35.0
+Caramel Macchiato,250,7.0,140.0,1.0,11.0,5.0
+White Chocolate Mocha (Without Whipped Cream),180,3.0,120.0,0.0,7.0,5.0
+White Chocolate Mocha (Without Whipped Cream),200,6.0,125.0,0.0,7.0,15.0
+White Chocolate Mocha (Without Whipped Cream),180,5.0,110.0,1.0,6.0,0.0
+White Chocolate Mocha (Without Whipped Cream),270,4.5,190.0,0.0,12.0,5.0
+White Chocolate Mocha (Without Whipped Cream),310,9.0,200.0,0.0,11.0,20.0
+White Chocolate Mocha (Without Whipped Cream),280,8.0,170.0,1.0,10.0,0.0
+White Chocolate Mocha (Without Whipped Cream),350,6.0,240.0,0.0,15.0,10.0
+White Chocolate Mocha (Without Whipped Cream),400,11.0,250.0,0.0,15.0,25.0
+White Chocolate Mocha (Without Whipped Cream),370,10.0,220.0,1.0,13.0,0.0
+White Chocolate Mocha (Without Whipped Cream),450,7.0,310.0,0.0,19.0,10.0
+White Chocolate Mocha (Without Whipped Cream),510,15.0,330.0,0.0,19.0,35.0
+White Chocolate Mocha (Without Whipped Cream),460,13.0,290.0,1.0,16.0,5.0
+Hot Chocolate (Without Whipped Cream),130,1.5,70.0,1.0,7.0,5.0
+Hot Chocolate (Without Whipped Cream),150,4.5,80.0,1.0,7.0,15.0
+Hot Chocolate (Without Whipped Cream),130,3.5,60.0,2.0,6.0,0.0
+Hot Chocolate (Without Whipped Cream),190,2.0,110.0,1.0,11.0,5.0
+Hot Chocolate (Without Whipped Cream),230,7.0,120.0,1.0,10.0,20.0
+Hot Chocolate (Without Whipped Cream),200,6.0,95.0,2.0,9.0,0.0
+Hot Chocolate (Without Whipped Cream),240,2.5,140.0,2.0,14.0,5.0
+Hot Chocolate (Without Whipped Cream),290,9.0,160.0,2.0,14.0,25.0
+Hot Chocolate (Without Whipped Cream),250,7.0,125.0,3.0,12.0,0.0
+Hot Chocolate (Without Whipped Cream),320,3.0,180.0,2.0,18.0,10.0
+Hot Chocolate (Without Whipped Cream),380,11.0,200.0,2.0,17.0,35.0
+Hot Chocolate (Without Whipped Cream),330,9.0,160.0,4.0,15.0,0.0
+Caramel Apple Spice (Without Whipped Cream),140,0.0,10.0,0.0,0.0,0.0
+Caramel Apple Spice (Without Whipped Cream),210,0.0,15.0,0.0,0.0,0.0
+Caramel Apple Spice (Without Whipped Cream),280,0.0,20.0,0.0,0.0,0.0
+Caramel Apple Spice (Without Whipped Cream),360,0.0,25.0,0.0,0.0,0.0
+Tazo® Tea,0,0.0,0.0,0.0,0.0,0.0
+Tazo® Tea,0,0.0,0.0,0.0,0.0,0.0
+Tazo® Tea,0,0.0,0.0,0.0,0.0,0.0
+Tazo® Tea,0,0.0,0.0,0.0,0.0,0.0
+Tazo® Chai Tea Latte,100,0.1,50.0,0.0,4.0,0.0
+Tazo® Chai Tea Latte,120,2.0,55.0,0.0,4.0,10.0
+Tazo® Chai Tea Latte,110,1.5,45.0,0.0,3.0,0.0
+Tazo® Chai Tea Latte,160,0.2,80.0,0.0,6.0,5.0
+Tazo® Chai Tea Latte,190,3.5,90.0,0.0,6.0,15.0
+Tazo® Chai Tea Latte,160,2.5,70.0,1.0,5.0,0.0
+Tazo® Chai Tea Latte,210,0.2,105.0,0.0,8.0,5.0
+Tazo® Chai Tea Latte,240,4.5,115.0,0.0,8.0,20.0
+Tazo® Chai Tea Latte,220,3.5,90.0,1.0,6.0,0.0
+Tazo® Chai Tea Latte,260,0.3,135.0,0.0,10.0,5.0
+Tazo® Chai Tea Latte,310,6.0,150.0,0.0,10.0,25.0
+Tazo® Chai Tea Latte,280,4.5,115.0,1.0,8.0,0.0
+Tazo® Green Tea Latte,130,0.2,85.0,0.0,7.0,5.0
+Tazo® Green Tea Latte,170,4.0,95.0,0.0,7.0,15.0
+Tazo® Green Tea Latte,140,3.0,70.0,1.0,6.0,0.0
+Tazo® Green Tea Latte,210,0.4,125.0,1.0,11.0,5.0
+Tazo® Green Tea Latte,260,6.0,140.0,1.0,10.0,25.0
+Tazo® Green Tea Latte,230,4.5,110.0,2.0,9.0,0.0
+Tazo® Green Tea Latte,290,0.5,160.0,1.0,14.0,10.0
+Tazo® Green Tea Latte,350,8.0,180.0,1.0,14.0,30.0
+Tazo® Green Tea Latte,310,6.0,140.0,3.0,11.0,0.0
+Tazo® Green Tea Latte,370,0.5,200.0,2.0,18.0,10.0
+Tazo® Green Tea Latte,450,10.0,230.0,2.0,17.0,40.0
+Tazo® Green Tea Latte,390,8.0,180.0,4.0,14.0,0.0
+Tazo® Full-Leaf Tea Latte,80,0.1,45.0,0.0,4.0,0.0
+Tazo® Full-Leaf Tea Latte,90,2.0,50.0,0.0,3.0,10.0
+Tazo® Full-Leaf Tea Latte,80,1.5,40.0,0.0,3.0,0.0
+Tazo® Full-Leaf Tea Latte,120,0.1,65.0,0.0,5.0,5.0
+Tazo® Full-Leaf Tea Latte,140,3.0,75.0,0.0,5.0,15.0
+Tazo® Full-Leaf Tea Latte,130,2.5,60.0,1.0,4.0,0.0
+Tazo® Full-Leaf Tea Latte,150,0.2,85.0,0.0,7.0,5.0
+Tazo® Full-Leaf Tea Latte,190,4.0,95.0,0.0,7.0,15.0
+Tazo® Full-Leaf Tea Latte,170,3.5,80.0,1.0,6.0,0.0
+Tazo® Full-Leaf Tea Latte,190,0.2,110.0,0.0,9.0,5.0
+Tazo® Full-Leaf Tea Latte,230,5.0,125.0,0.0,9.0,20.0
+Tazo® Full-Leaf Tea Latte,210,4.0,100.0,1.0,7.0,0.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),80,0.1,45.0,0.0,4.0,0.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),90,2.0,50.0,0.0,3.0,10.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),80,1.5,40.0,0.0,3.0,0.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),120,0.1,65.0,0.0,5.0,5.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),140,3.0,75.0,0.0,5.0,15.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),130,2.5,60.0,1.0,4.0,0.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),150,0.2,85.0,0.0,7.0,5.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),190,4.0,95.0,0.0,7.0,15.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),170,3.5,80.0,1.0,6.0,0.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),190,0.2,110.0,0.0,9.0,5.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),230,5.0,125.0,0.0,9.0,20.0
+Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),210,4.0,100.0,1.0,7.0,0.0
+Iced Brewed Coffee (With Classic Syrup),60,0.0,4.0,0.0,0.2,0.0
+Iced Brewed Coffee (With Classic Syrup),90,0.1,5.0,0.0,0.3,0.0
+Iced Brewed Coffee (With Classic Syrup),130,0.1,5.0,0.0,0.4,0.0
+Iced Brewed Coffee (With Milk & Classic Syrup),80,0.1,25.0,0.0,2.0,0.0
+Iced Brewed Coffee (With Milk & Classic Syrup),80,1.0,20.0,0.0,2.0,0.0
+Iced Brewed Coffee (With Milk & Classic Syrup),110,0.1,30.0,0.0,2.0,0.0
+Iced Brewed Coffee (With Milk & Classic Syrup),120,1.5,35.0,0.0,2.0,5.0
+Iced Brewed Coffee (With Milk & Classic Syrup),110,1.0,30.0,0.0,2.0,0.0
+Iced Brewed Coffee (With Milk & Classic Syrup),160,0.1,50.0,0.0,4.0,0.0
+Iced Brewed Coffee (With Milk & Classic Syrup),180,2.0,55.0,0.0,4.0,10.0
+Iced Brewed Coffee (With Milk & Classic Syrup),170,1.5,45.0,0.0,3.0,0.0
+Shaken Iced Tazo® Tea (With Classic Syrup),60,0.0,0.0,0.0,0.0,0.0
+Shaken Iced Tazo® Tea (With Classic Syrup),80,0.0,0.0,0.0,0.0,0.0
+Shaken Iced Tazo® Tea (With Classic Syrup),120,0.0,0.0,0.0,0.0,0.0
+Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),100,0.0,0.0,0.0,0.1,0.0
+Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),130,0.0,0.0,0.0,0.1,0.0
+Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),190,0.0,0.0,0.0,0.1,0.0
+Banana Chocolate Smoothie,280,2.5,150.0,7.0,20.0,5.0
+Banana Chocolate Smoothie,300,5.0,160.0,7.0,20.0,15.0
+Banana Chocolate Smoothie,290,4.5,150.0,7.0,19.0,5.0
+Orange Mango Banana Smoothie,260,1.0,120.0,6.0,16.0,5.0
+Orange Mango Banana Smoothie,270,1.5,125.0,6.0,16.0,5.0
+Orange Mango Banana Smoothie,270,1.5,120.0,6.0,15.0,5.0
+Strawberry Banana Smoothie,290,1.0,125.0,7.0,16.0,5.0
+Strawberry Banana Smoothie,290,2.0,125.0,7.0,16.0,5.0
+Strawberry Banana Smoothie,290,2.0,120.0,8.0,16.0,5.0
+Coffee,160,0.1,160.0,0.0,3.0,0.0
+Coffee,180,2.5,160.0,0.0,3.0,10.0
+Coffee,160,1.5,150.0,0.0,2.0,0.0
+Coffee,220,0.1,210.0,0.0,4.0,0.0
+Coffee,240,3.0,220.0,0.0,3.0,10.0
+Coffee,220,1.5,210.0,0.0,3.0,0.0
+Coffee,310,0.1,300.0,0.0,6.0,5.0
+Coffee,350,5.0,300.0,0.0,5.0,15.0
+Coffee,310,2.5,300.0,1.0,5.0,0.0
+Mocha (Without Whipped Cream),180,0.5,150.0,1.0,3.0,0.0
+Mocha (Without Whipped Cream),200,3.0,160.0,1.0,3.0,10.0
+Mocha (Without Whipped Cream),180,2.0,150.0,1.0,3.0,0.0
+Mocha (Without Whipped Cream),260,1.0,220.0,1.0,4.0,0.0
+Mocha (Without Whipped Cream),290,4.0,220.0,1.0,4.0,10.0
+Mocha (Without Whipped Cream),260,2.5,220.0,1.0,4.0,0.0
+Mocha (Without Whipped Cream),340,1.0,300.0,1.0,7.0,5.0
+Mocha (Without Whipped Cream),390,6.0,300.0,1.0,6.0,15.0
+Mocha (Without Whipped Cream),350,3.0,290.0,2.0,6.0,0.0
+Caramel (Without Whipped Cream),180,0.1,160.0,0.0,3.0,0.0
+Caramel (Without Whipped Cream),200,2.5,160.0,0.0,3.0,10.0
+Caramel (Without Whipped Cream),180,1.5,150.0,0.0,2.0,0.0
+Caramel (Without Whipped Cream),280,0.1,220.0,0.0,4.0,0.0
+Caramel (Without Whipped Cream),280,3.5,220.0,0.0,3.0,10.0
+Caramel (Without Whipped Cream),260,1.5,220.0,0.0,3.0,0.0
+Caramel (Without Whipped Cream),330,0.1,290.0,0.0,5.0,5.0
+Caramel (Without Whipped Cream),370,5.0,300.0,0.0,5.0,15.0
+Caramel (Without Whipped Cream),340,2.5,290.0,1.0,5.0,0.0
+Java Chip (Without Whipped Cream),220,3.0,170.0,1.0,4.0,0.0
+Java Chip (Without Whipped Cream),240,5.0,170.0,1.0,4.0,10.0
+Java Chip (Without Whipped Cream),220,4.0,170.0,1.0,3.0,0.0
+Java Chip (Without Whipped Cream),310,4.0,250.0,2.0,5.0,0.0
+Java Chip (Without Whipped Cream),340,7.0,250.0,2.0,5.0,10.0
+Java Chip (Without Whipped Cream),310,6.0,240.0,2.0,4.0,0.0
+Java Chip (Without Whipped Cream),420,5.0,340.0,2.0,7.0,5.0
+Java Chip (Without Whipped Cream),460,10.0,340.0,2.0,7.0,15.0
+Java Chip (Without Whipped Cream),430,8.0,330.0,3.0,6.0,0.0
+Coffee,90,0.1,160.0,0.0,3.0,0.0
+Coffee,120,0.1,210.0,0.0,3.0,0.0
+Coffee,160,0.1,270.0,0.0,5.0,5.0
+Mocha,110,0.5,150.0,1.0,3.0,0.0
+Mocha,150,1.0,200.0,1.0,4.0,0.0
+Mocha,210,1.0,280.0,1.0,6.0,5.0
+Caramel,100,0.1,140.0,0.0,3.0,0.0
+Caramel,150,0.1,200.0,0.0,3.0,0.0
+Caramel,200,0.1,270.0,0.0,5.0,5.0
+Java Chip,150,3.0,170.0,1.0,4.0,0.0
+Java Chip,220,4.0,240.0,2.0,5.0,0.0
+Java Chip,290,5.0,320.0,2.0,7.0,5.0
+Strawberries & Crème (Without Whipped Cream),170,0.1,140.0,0.0,3.0,0.0
+Strawberries & Crème (Without Whipped Cream),190,3.0,140.0,0.0,3.0,10.0
+Strawberries & Crème (Without Whipped Cream),170,1.5,135.0,1.0,3.0,0.0
+Strawberries & Crème (Without Whipped Cream),230,0.2,190.0,0.0,4.0,0.0
+Strawberries & Crème (Without Whipped Cream),260,4.0,190.0,0.0,4.0,10.0
+Strawberries & Crème (Without Whipped Cream),240,2.0,180.0,1.0,3.0,0.0
+Strawberries & Crème (Without Whipped Cream),310,0.2,260.0,0.0,6.0,5.0
+Strawberries & Crème (Without Whipped Cream),350,6.0,260.0,0.0,6.0,15.0
+Strawberries & Crème (Without Whipped Cream),320,,250.0,1.0,5.0,0.0
+Vanilla Bean (Without Whipped Cream),170,0.1,160.0,0.0,4.0,0.0
+Vanilla Bean (Without Whipped Cream),200,3.5,160.0,0.0,3.0,10.0
+Vanilla Bean (Without Whipped Cream),180,1.5,160.0,1.0,3.0,0.0
+Vanilla Bean (Without Whipped Cream),240,0.1,230.0,0.0,5.0,5.0

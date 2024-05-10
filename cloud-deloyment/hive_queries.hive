@@ -1,0 +1,74 @@
+
+-- Section 1: Schema Creation and Data Loading
+
+-- 1. Create the 'CA4022' schema if it does not already exist and set it as the active schema.
+CREATE SCHEMA IF NOT EXISTS CA4022;
+
+USE CA4022;
+
+-- 2. Drop the 'nutrition' and 'nutritionExpanded' tables if they exist.
+DROP TABLE nutrition;
+
+DROP TABLE nutritionExpanded;
+
+-- 3. Create the 'nutrition' table with the specified schema for storing Starbucks drinks nutrition data.
+--    The data is stored as text files with a CSV format.
+CREATE TABLE IF NOT EXISTS nutrition (product STRING, calories INT, fat DOUBLE, carb DOUBLE, fiber DOUBLE, protein DOUBLE, sodium DOUBLE)
+COMMENT "Starbucks drinks nutrition"
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ","
+LINES TERMINATED BY "\n"
+STORED AS TEXTFILE;
+
+-- 4. Create the 'nutritionExpanded' table with a similar schema for storing expanded Starbucks drinks nutrition data.
+CREATE TABLE IF NOT EXISTS nutritionExpanded (product STRING, calories INT, fat DOUBLE, carb DOUBLE, fiber DOUBLE, protein DOUBLE, sodium DOUBLE)
+COMMENT "Expanded starbucks drinks nutrition"
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ","
+LINES TERMINATED BY "\n"
+STORED AS TEXTFILE;
+
+-- 5. Load the cleaned data into the 'nutrition' table.
+LOAD DATA INPATH 'gs://nutrition-bucket2/outputs/cleanDrinks.csv/part-m-00000'
+OVERWRITE INTO TABLE nutrition;
+
+-- 6. Load the cleaned expanded data into the 'nutritionExpanded' table.
+LOAD DATA INPATH 'gs://nutrition-bucket2/outputs/cleanExpandedDrinks.csv/part-m-00000'
+OVERWRITE INTO TABLE nutritionExpanded;
+
+-- Section 2: Data Queries
+
+-- 7. Retrieve the 'product' and 'protein' columns from the 'nutrition' table, order them by 'protein' in descending order, and limit the result to the top 10.
+SELECT product, protein FROM nutrition
+ORDER BY protein DESC
+LIMIT 10;
+
+-- 8. Retrieve 'product' and 'calories' columns from the 'nutrition' table for drinks with 'chocolate' in their names.
+SELECT product, calories FROM nutrition
+WHERE LOWER(product) LIKE '%chocolate%';
+
+-- 9. Calculate the average sodium content for drinks containing 'vanilla' and not containing 'vanilla' in their names.
+SELECT 
+SUM(CASE WHEN LOWER(product) LIKE '%vanilla%' THEN sodium ELSE 0 END) / COUNT(*) AS AverageSodiumChoc,
+SUM(CASE WHEN LOWER(product) NOT LIKE '%vanilla%' THEN sodium ELSE 0 END) / COUNT(*) AS AverageSodiumNotChoc
+FROM nutrition;
+
+-- 10. Categorize drinks as 'Chocolate' or 'Non-Chocolate' based on the presence of 'chocolate' in their names and calculate the average fat content for each category.
+SELECT CASE WHEN LOWER(product) LIKE '%chocolate%' THEN 'Chocolate' ELSE 'Non-Chocolate' END AS category, AVG(fat) AS AverageFat
+FROM (SELECT * FROM nutrition  UNION ALL  SELECT * FROM nutritionExpanded) AS masterDrinksMenu
+GROUP BY CASE WHEN LOWER(product) LIKE '%chocolate%' THEN 'Chocolate' ELSE 'Non-Chocolate' END;
+
+-- 11. Calculate the average carbohydrate content and standard deviation for each table ('nutrition' and 'nutritionExpanded') and label them as 'sourceTable'.
+SELECT sourceTable, AVG(carb) As AverageCarb, Stddev_pop(carb) AS StandardDevCarb FROM (SELECT *, 'nutrition' AS sourceTable From nutrition
+UNION ALL
+SELECT *, 'nutritionExpanded' AS sourceTable FROM nutritionExpanded) AS masterDrinksMenu
+GROUP BY sourceTable
+ORDER BY AverageCarb DESC;
+
+INSERT OVERWRITE DIRECTORY 'gs://nutrition-bucket2/outputs/hive'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+
+SELECT CASE WHEN LOWER(product) LIKE '%chocolate%' THEN 'Chocolate' ELSE 'Non-Chocolate' END AS category, AVG(fat) AS AverageFat
+FROM (SELECT * FROM nutrition  UNION ALL  SELECT * FROM nutritionExpanded) AS masterDrinksMenu
+GROUP BY CASE WHEN LOWER(product) LIKE '%chocolate%' THEN 'Chocolate' ELSE 'Non-Chocolate' END;
